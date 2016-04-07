@@ -1,5 +1,13 @@
 #!/usr/bin/php
 <?php
+//
+// Aus allen Stereo-Wave-Files in einem Ordner werden mittels SOX (http://sox.sourceforge.net/)  
+// die linke und rechte Spur als Mono-Tracks herausgerechnet und 
+// unter */mono-files gespeichert
+//
+// Funktioniert nicht ohne SOX --> $ brew install sox
+//
+
 echo "-----------------------------------------\n";
 echo " Converting STEREO-WAV to MONO-WAV files \n";
 echo " Filepath: ".__DIR__."\n";
